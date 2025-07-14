@@ -26,6 +26,7 @@ collections:
           - { label: Profile pic, name: profilepic, widget: image}
       - label: Social
         name: social
+        file: "src/_data/social.yaml"
         widget: list
         allow_add: false
         collapsed: false
