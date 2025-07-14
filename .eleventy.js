@@ -32,6 +32,12 @@ module.exports = function (eleventyConfig) {
       "./static/css/prism-tomorrow.css",
   });
 
+  // Copy CSS Folder to /_site
+  eleventyConfig.addPassthroughCopy("./src/static/css");
+
+  // Copy JS Folder to /_site
+  eleventyConfig.addPassthroughCopy("./src/static/js");
+
   // Copy Image Folder to /_site
   eleventyConfig.addPassthroughCopy("./src/static/img");
 

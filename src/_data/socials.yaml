@@ -1,0 +1,11 @@
+---
+items:
+  - text: X (Twitter)
+    url: "https://twitter.com/sushmitav1"
+    icon: "https://thereisnoearthb.com/icons/twitter.svg"
+  - text: mail
+    url: "mailto:sushmitaw@protonmail.com"
+    icon: "https://thereisnoearthb.com/icons/envelope.svg"
+  - text: Linked in
+    url: "https://www.linkedin.com/in/sushmita-65191925/"
+    icon: "https://thereisnoearthb.com/icons/linkedin.svg"
