@@ -1,5 +1,8 @@
----
 title: Sushmita
 subTitle: researcher, journalist, multimedia artist
-profilepic: "/static/img/userPicture.jpg"
-bio: Sushmita is a researcher, journalist and a multimedia artist. She works on issues related to the rights of indigenous people, environment, climate change, violence against women, governance and more. She is part of an ongoing assessment on the impact of COVID-19 on Adivasis and forest communities.
+profilepic: /static/img/userPicture.jpg
+bio: Sushmita is a researcher, journalist and a multimedia artist. She works on
+  issues related to the rights of indigenous people, environment, climate
+  change, violence against women, governance and more. She is part of an ongoing
+  assessment on the impact of COVID-19 on Adivasis and forest communities.
+text: test
