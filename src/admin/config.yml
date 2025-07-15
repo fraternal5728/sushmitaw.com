@@ -27,13 +27,16 @@ collections:
       - label: Social
         name: social
         file: "src/_data/socials.yaml"
-        widget: list
-        allow_add: false
-        collapsed: false
-        fields:
-          - { label: Title, name: text, widget: string }
-          - { label: URL, name: url, widget: string }
-          - { label: Icon, name: icon, widget: string}
+        fields: # The file is an object with fields
+          - label: Social Links
+            name: items # This name must match the key in your YAML file
+            widget: list
+            allow_add: false
+            collapsed: false
+            fields:
+              - { label: Title, name: text, widget: string }
+              - { label: URL, name: url, widget: string }
+              - { label: Icon, name: icon, widget: string}
           # - { label: Icon, name: icon, widget: image}
       - label: "Sidebar"
         name: "sidebar"
