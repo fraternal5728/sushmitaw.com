@@ -21,12 +21,12 @@ collections:
         name: "profile"
         file: "src/_data/profile.yaml"
         fields:
-          - { label: Title, name: text, widget: string }
+          - { label: Title, name: title, widget: string }
           - { label: Sub Title, name: subTitle, widget: string }
           - { label: Profile pic, name: profilepic, widget: image}
       - label: Social
         name: social
-        file: "src/_data/social.yaml"
+        file: "src/_data/socials.yaml"
         widget: list
         allow_add: false
         collapsed: false
