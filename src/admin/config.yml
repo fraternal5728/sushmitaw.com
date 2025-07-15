@@ -27,12 +27,12 @@ collections:
       - label: Social
         name: social
         file: "src/_data/socials.yaml"
-        fields: # The file is an object with fields
+        fields:
           - label: Social Links
-            name: items # This name must match the key in your YAML file
+            name: items
             widget: list
-            allow_add: false
-            collapsed: false
+            allow_add: true
+            collapsed: true
             fields:
               - { label: Title, name: text, widget: string }
               - { label: URL, name: url, widget: string }
@@ -49,9 +49,10 @@ collections:
         file: "src/_data/articles.yaml"
         fields:
           - label: Articles Collection
-            name: articlesCollection
+            name: items
             widget: list
-            collapsed: false
+            allow_add: true
+            collapsed: true
             fields:
               - { label: Title, name: title, widget: string }
               - { label: URL, name: url, widget: string }
